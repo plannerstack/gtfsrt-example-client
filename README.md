@@ -54,7 +54,7 @@ pip install -r requirements.txt
 Run the example client by defining the stream as a environment variable and starting the process with python.
 
 ```
-stream="ws://gtfsrt.plannerstack.com:8089/tripUpdates" python gtfsrt-example-client.py
+stream="ws://server.com:port/tripUpdates" python gtfsrt-example-client.py
 ```
 
 For available demo streams see the docs at [docs.plannerstack.org](http://docs.plannerstack.org/). You can alos join us on our Slack channel to get in direct contact. Visit: [slack.plannerstack.org](http://slack.plannerstack.org)
