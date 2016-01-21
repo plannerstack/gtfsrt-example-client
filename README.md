@@ -1,5 +1,7 @@
 # GTFS-RT Example Client
 
+GTFS-RT is a standard to communicate about (public) transport data in Real Time.
+
 This is a very simple GTFS-RT example client written in Python. It shows how to connect over websockets and start handling GTFS-RT messages received in the Protocol Buffer protocol.
 
 While the client runs it will log *Alerts*, *Trip Updates* or *Vehicle Positions* depending on the content of the stream. This will look like long list of items like:
